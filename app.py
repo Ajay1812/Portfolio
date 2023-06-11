@@ -23,6 +23,7 @@ local_css('style/style.css')
 # ----- LOAD ASSETS ---- #
 lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_tfb3estd.json")
 lottie_profile = load_lottieurl('https://assets1.lottiefiles.com/datafiles/i1uFIojbGt3KRN2/data.json')
+lottie_contact = load_lottieurl('https://assets8.lottiefiles.com/packages/lf20_ygvu4b4g.json')
 img_WhatsApp_Chat = Image.open('./images/WhatsApp chat Analyzer.webp')
 img_PowerBi_Sales = Image.open('./images/power-BI.webp')
 img_titanic = Image.open('./images/Titanic Dataset Analysis.png')
@@ -209,4 +210,4 @@ with st.container():
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-        st.empty()
+        st_lottie(lottie_contact, height= 400, key='contact')
