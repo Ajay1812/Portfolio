@@ -27,7 +27,11 @@ img_WhatsApp_Chat = Image.open('./images/WhatsApp chat Analyzer.webp')
 img_PowerBi_Sales = Image.open('./images/power-BI.webp')
 img_titanic = Image.open('./images/Titanic Dataset Analysis.png')
 img_posenet = Image.open('./images/Posenet.png')
+img_chatGPT = Image.open('./images/openai-featured.jpg')
+img_scrapy = Image.open('./images/scrapy.png')
 img_CO2 = Image.open('./images/CO2 Emission and Climate Change.png')
+movie_app = Image.open('./images/movie_app.png')
+Youtube_app = Image.open('./images/Youtube_1.png')
 
 
 #---- lOAD RESUME PDF---#
