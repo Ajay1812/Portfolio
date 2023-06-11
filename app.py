@@ -35,7 +35,7 @@ Youtube_app = Image.open('./images/Youtube_1.png')
 
 
 #---- lOAD RESUME PDF---#
-Resume_pdf = './assets/Resume.pdf'
+Resume_pdf = '../assets/Resume.pdf'
 
 
 
