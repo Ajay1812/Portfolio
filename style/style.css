@@ -4,17 +4,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
 
-* {font-family: 'Readex Pro';}
+* {
+  font-family: 'Readex Pro';
+}
 
 a {
   text-decoration: none;
-  color:rgb(76, 150, 203) !important;
+  color: rgb(71, 87, 190) !important;
   font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
+
+
 
 a:hover {
   color: #d33682 !important;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h3#whatsapp-chat-analyzer{
   color: rgb(66, 207, 66);
@@ -28,19 +35,36 @@ h3#titanic-dataset-analysis{
 h3#posture-dection-by-posenet{
   color: rgb(66, 207, 66);
 }
+h3#generate-tags-and-article-with-chatgpt{
+  color: rgb(66, 207, 66);
+}
+h3#powerbi-sales-analysis{
+  color: rgb(66, 207, 66);
+}
+h3#posture-dection{
+  color: rgb(66, 207, 66);
+}
+h3#scrape-jnmarket-website-using-scrapy{
+  color: rgb(66, 207, 66);
+}
 h3#co2-emisson-and-climate-change-dashboard{
+  color: rgb(66, 207, 66);
+}
+h3#movie-search-app-using-omdb-api{
+  color: rgb(66, 207, 66);
+}
+h3#top-5-youtube-channels{
   color: rgb(66, 207, 66);
 }
 
 
 
-/* Form */
-h2#get-in-touch-with-me{
-  color: #ffffff
-  /* color: rgb(142, 212, 142); */
-  
-}
 
+
+/* Contact */
+h2#get-in-touch-with-me{
+  color: #ededed 
+}
 
 
 input[type=message], input[type=email], input[type=text], textarea {
@@ -75,3 +99,4 @@ input[type=message], input[type=email], input[type=text], textarea {
   #MainMenu {visibility: hidden;}
   footer {visibility: hidden;}
   header {visibility: hidden;}
+
