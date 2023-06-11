@@ -21,8 +21,8 @@ def local_css(file_name):
 local_css('style/style.css')
 # https://assets7.lottiefiles.com/packages/lf20_UBiAADPga8.json
 # ----- LOAD ASSETS ---- #
-lottie_coding = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_rMKAwk6Fiv.json")
-lottie_profile = load_lottieurl('https://assets7.lottiefiles.com/packages/lf20_UBiAADPga8.json')
+lottie_coding = load_lottieurl(r"https://assets6.lottiefiles.com/packages/lf20_rMKAwk6Fiv.json")
+lottie_profile = load_lottieurl(r'https://assets7.lottiefiles.com/packages/lf20_UBiAADPga8.json')
 img_WhatsApp_Chat = Image.open('./images/WhatsApp chat Analyzer.webp')
 img_PowerBi_Sales = Image.open('./images/power-BI.webp')
 img_titanic = Image.open('./images/Titanic Dataset Analysis.png')
