@@ -31,7 +31,7 @@ img_chatGPT = Image.open('./images/openai-featured.jpg')
 img_scrapy = Image.open('./images/scrapy.png')
 img_CO2 = Image.open('./images/CO2 Emission and Climate Change.png')
 movie_app = Image.open('./images/movie_app.png')
-Youtube_app = Image.open('./images/Youtube.png')
+Youtube_app = Image.open('./images/Youtube_1.png')
 
 
 #---- lOAD RESUME PDF---#
