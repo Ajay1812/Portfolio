@@ -16,6 +16,10 @@ a {
   font-style: italic;
 }
 
+p {
+  font-size: large
+}
+
 
 
 a:hover {

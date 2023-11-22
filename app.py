@@ -46,7 +46,8 @@ with st.container():
     with Hi:
         st.subheader('Hi, I am Ajay :wave:')
         st.title('Data Analyst')
-        st.write("I am a recent B.Tech graduate with a passion for data analysis. I have developed skills in statistical analysis, data visualization, and machine learning, and have experience using tools such as Python, SQL, and PowerBI. As a data analyst, I am highly skilled in data analysis and visualization, and am committed to continuing to learn and grow in my career.")
+        # st.write("I am a recent B.Tech graduate with a passion for data analysis. I have developed skills in statistical analysis, data visualization, and machine learning, and have experience using tools such as Python, SQL, and PowerBI. As a data analyst, I am highly skilled in data analysis and visualization, and am committed to continuing to learn and grow in my career.")
+        st.write("Experienced Data Engineer at Vitispro, skilled in web scraping and NLP projects. Expertise in Python, SQL, Streamlit, and Power BI, with a focus on data analysis, data science, and machine learning. Known for strong analytical skills, passionate about utilizing data to inform decisions and extract actionable insights in the corporate sphere.")
 
     with img_profile:
         st_lottie(lottie_profile, height= 300, key='profile')
@@ -71,7 +72,14 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header('What I do')
-        st.write("I have been learning about machine learning and artificial intelligence, and I am actively seeking opportunities to further develop my skills in these areas. I have also completed several projects in these fields to apply my knowledge and gain practical experience.")
+        # st.write("I have been learning about machine learning and artificial intelligence, and I am actively seeking opportunities to further develop my skills in these areas. I have also completed several projects in these fields to apply my knowledge and gain practical experience.")
+        st.write("""
+        - Apply advanced statistical and machine learning techniques to extract insights.
+        - Ensure data integrity through systematic quality checks.
+        - Transform complex data into visually compelling insights.
+        - Gather relevant information from websites using web scraping.
+        - Expertise in SQL, Python, Streamlit, Power BI, Postman, and scikit-learn.
+        """)
     with right_column:
             st_lottie(lottie_coding, height= 400, key='coding')
 
