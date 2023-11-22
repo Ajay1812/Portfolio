@@ -78,7 +78,6 @@ with st.container():
         - Ensure data integrity through systematic quality checks.
         - Transform complex data into visually compelling insights.
         - Gather relevant information from websites using web scraping.
-        - Expertise in SQL, Python, Streamlit, Power BI, Postman, and scikit-learn.
         """)
     with right_column:
             st_lottie(lottie_coding, height= 400, key='coding')
